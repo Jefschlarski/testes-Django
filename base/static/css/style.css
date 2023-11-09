@@ -1,0 +1,39 @@
+*,
+*:after,
+*:before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #918e8e;
+    color: white;
+}
+
+.navBar ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.navBar ul a li{
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 1em;
+    min-width: 100px;
+    margin: 1em 1em;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.navBar ul a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Arial', Courier, monospace;
+    font-size: 16;
+    font-weight: bold;
+}
+
+.navBar ul a li:hover {
+    background-color: #797777;
+}
